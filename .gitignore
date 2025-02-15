@@ -1,0 +1,29 @@
+# Ignorer les fichiers et dossiers inutiles dans le dépôt Git
+
+# Dossiers générés automatiquement
+__pycache__/
+*.pyc
+*.pyo
+
+# Dossiers de virtual environment
+venv/
+.venv/
+
+# Fichiers de logs et outputs temporaires
+*.log
+*.out
+
+# Checkpoints de Jupyter Notebook
+.ipynb_checkpoints/
+
+# Dossier contenant les datasets (à ne pas pousser sur GitHub)
+data/
+
+# Modèles entraînés (fichiers lourds)
+*.h5
+*.ckpt
+
+
+# Fichiers système inutiles
+.DS_Store
+Thumbs.db
